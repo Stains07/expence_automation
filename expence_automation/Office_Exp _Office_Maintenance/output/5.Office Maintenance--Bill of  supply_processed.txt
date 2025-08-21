@@ -1,28 +1,29 @@
 {
-  "Date": "25/7/22",
-  "GST": "29AIKPA4027F1Z",
-  "Bill No": "17244",
+  "Date of Invoice": "25/07/22",
+  "GST Number": "29AIKPA4027F1Z",
+  "Bill Number": "17244",
   "Items": [
     {
       "Description": "Hairpie",
-      "QTY": "1",
-      "Rate": "110"
+      "QTY": "N/A",
+      "Rate per Item": "110"
     },
     {
       "Description": "Room Spray",
-      "QTY": "1",
-      "Rate": "169"
+      "QTY": "N/A",
+      "Rate per Item": "169"
     },
     {
       "Description": "Hair pocket 1 box",
-      "QTY": "1",
-      "Rate": "460"
+      "QTY": "N/A",
+      "Rate per Item": "460"
     },
     {
       "Description": "Tissue",
       "QTY": "2",
-      "Rate": "70"
+      "Rate per Item": "70"
     }
   ],
-  "Total": "809"
+  "Total Amount": "809",
+  "Purchaser Name": "Muthoot name: yes"
 }

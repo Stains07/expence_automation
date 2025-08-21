@@ -1,13 +1,19 @@
 {
-  "Date": "06/08/15",
-  "GST": "N/A",
-  "Bill No": "1626893",
+  "Date of Invoice": "06/08/15",
+  "GST Number": "N/A",
+  "Bill Number": "1626893",
   "Items": [
     {
-      "Description": "Cash paid for non-drinking water",
-      "QTY": "1",
-      "Rate": "1000"
+      "Description": "Water",
+      "QTY": "N/A",
+      "Rate per Item": "1000"
+    },
+    {
+      "Description": "non-drinking",
+      "QTY": "N/A",
+      "Rate per Item": "1000"
     }
   ],
-  "Total": "1000"
+  "Total Amount": "1000",
+  "Purchaser Name": "Muthoot name: yes"
 }

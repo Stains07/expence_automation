@@ -11,7 +11,7 @@
     {
       "Description": "Sta",
       "QTY": "4",
-      "Rate per Item": "40"
+      "Rate per Item": "90"
     },
     {
       "Description": "20026",
@@ -24,7 +24,7 @@
       "Rate per Item": "50"
     },
     {
-      "Description": "250/5",
+      "Description": "250/h5",
       "QTY": "2",
       "Rate per Item": "90"
     },

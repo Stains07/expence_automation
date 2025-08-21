@@ -1,18 +1,19 @@
 {
-  "Date": "5-Aug-25",
-  "GST": "07ATSPK2005G2ZM",
-  "Bill No": "NSW/25-26/232",
+  "Date of Invoice": "05-Aug-23",
+  "GST Number": "07AACCM1453E1ZV",
+  "Bill Number": "NSW/25-26/232",
   "Items": [
     {
-      "Description": "Restamping of Electronic Weighing Machine",
-      "QTY": "1 NOS",
-      "Rate": "1750.00"
+      "Description": "Restamping of Electronic Weighing Machine\nMAKE-ESSAE\nMODEL-S-857\nCAP-1kg, MIN-5g, ACC-0.1g\nCLASS-II\nS/NO: GB5209247423\nVC-926/019 DT-02/08/25",
+      "QTY": "1",
+      "Rate per Item": "1,750.00"
     },
     {
-      "Description": "Restamping of CIW Weight",
-      "QTY": "1 NOS",
-      "Rate": "650.00"
+      "Description": "Restamping of CIW Weight\nCAP-100g\nVC-9080/053 DT-02/08/25",
+      "QTY": "1",
+      "Rate per Item": "650.00"
     }
   ],
-  "Total": "2832.00"
+  "Total Amount": "2,832.00",
+  "Purchaser Name": "Muthoot name: yes"
 }

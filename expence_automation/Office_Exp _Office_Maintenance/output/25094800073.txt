@@ -1,13 +1,14 @@
 {
-  "Date": "27/06/2025",
-  "GST": "27BNNPB2537A1ZF",
-  "Bill No": "June/25/005",
+  "Date of Invoice": "27/06/2025",
+  "GST Number": "27BNNPB2537A1ZF",
+  "Bill Number": "June/25/005",
   "Items": [
     {
       "Description": "2Kg ABC Type Fire Extinguisher Refilling",
       "QTY": "2",
-      "Rate": "800"
+      "Rate per Item": "800"
     }
   ],
-  "Total": "1888"
+  "Total Amount": "1888",
+  "Purchaser Name": "Muthoot name: yes"
 }

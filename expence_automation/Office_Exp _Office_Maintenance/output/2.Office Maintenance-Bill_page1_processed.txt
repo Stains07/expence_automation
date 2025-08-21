@@ -1,13 +1,14 @@
 {
-  "Date": "30/7/2025",
-  "GST": "N/A",
-  "Bill No": "N/A",
+  "Date of Invoice": "30/7/2025",
+  "GST Number": "N/A",
+  "Bill Number": "N/A",
   "Items": [
     {
       "Description": "Tab Pouch",
       "QTY": "1000",
-      "Rate": "N/A"
+      "Rate per Item": "N/A"
     }
   ],
-  "Total": "N/A"
+  "Total Amount": "N/A",
+  "Purchaser Name": "Muthoot name: yes"
 }

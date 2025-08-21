@@ -1,18 +1,19 @@
 {
-  "Date": "18/06/29",
-  "GST": "29JYWPS2974A1ZI",
-  "Bill No": "293",
+  "Date of Invoice": "18/06/25",
+  "GST Number": "29JYWPS2974A1ZI",
+  "Bill Number": "293",
   "Items": [
     {
-      "Description": "Earthling kit",
+      "Description": "Earthing kit",
       "QTY": "1set",
-      "Rate": "432"
+      "Rate per Item": "432"
     },
     {
       "Description": "Wire 1.5 wire",
-      "QTY": "260",
-      "Rate": "500"
+      "QTY": "260/",
+      "Rate per Item": "500"
     }
   ],
-  "Total": "100"
+  "Total Amount": "1100",
+  "Purchaser Name": "Muthoot name: yes"
 }

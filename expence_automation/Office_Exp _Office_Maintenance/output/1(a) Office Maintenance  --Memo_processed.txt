@@ -1,13 +1,14 @@
 {
-  "Date": "18/06/2025",
-  "GST": "N/A",
-  "Bill No": "N/A",
+  "Date of Invoice": "18/06/2025",
+  "GST Number": "N/A",
+  "Bill Number": "N/A",
   "Items": [
     {
       "Description": "Electricion babu\u044f Exp",
-      "QTY": "1",
-      "Rate": "1000.00"
+      "QTY": "N/A",
+      "Rate per Item": "N/A"
     }
   ],
-  "Total": "1000.00"
+  "Total Amount": "1000.00",
+  "Purchaser Name": "Muthoot name: yes"
 }

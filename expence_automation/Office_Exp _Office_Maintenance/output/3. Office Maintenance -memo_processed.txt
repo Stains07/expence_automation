@@ -1,43 +1,44 @@
 {
-  "Date": "28/07/25",
-  "GST": "N/A",
-  "Bill No": "B-40",
+  "Date of Invoice": "28/07/25",
+  "GST Number": "N/A",
+  "Bill Number": "B-40",
   "Items": [
     {
-      "Description": "1012",
-      "QTY": "1",
-      "Rate": "20"
+      "Description": "102",
+      "QTY": "N/A",
+      "Rate per Item": "20"
     },
     {
       "Description": "Sta",
       "QTY": "4",
-      "Rate": "40"
+      "Rate per Item": "40"
     },
     {
       "Description": "20026",
-      "QTY": "1",
-      "Rate": "160"
+      "QTY": "2",
+      "Rate per Item": "80"
     },
     {
       "Description": "20 ch",
       "QTY": "2",
-      "Rate": "50"
+      "Rate per Item": "50"
     },
     {
-      "Description": "230 Ltr",
+      "Description": "250L+",
       "QTY": "2",
-      "Rate": "90"
+      "Rate per Item": "90"
     },
     {
-      "Description": "(4) Lit05",
+      "Description": "470",
       "QTY": "1",
-      "Rate": "110"
+      "Rate per Item": "110"
     },
     {
-      "Description": "9B10",
+      "Description": "9010",
       "QTY": "1",
-      "Rate": "26"
+      "Rate per Item": "90"
     }
   ],
-  "Total": "600"
+  "Total Amount": "600",
+  "Purchaser Name": "Muthoot name: yes"
 }
