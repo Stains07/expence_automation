@@ -1,0 +1,6 @@
+Date: 06/08/15
+GST: N/A
+Bill No: 1626893
+Items:
+- Description: Cash paid for non-drinking water, QTY: 1, Rate: 1000
+Total: 1000

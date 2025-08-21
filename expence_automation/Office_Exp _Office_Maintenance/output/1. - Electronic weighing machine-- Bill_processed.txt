@@ -1,0 +1,7 @@
+Date: 5-Aug-25
+GST: 07ATSPK2005G2ZM
+Bill No: NSW/25-26/232
+Items:
+- Description: Restamping of Electronic Weighing Machine, QTY: 1, Rate: 1750.00
+- Description: Restamping of CIW Weight, QTY: 1, Rate: 650.00
+Total: 2832.00

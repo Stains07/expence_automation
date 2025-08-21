@@ -1,0 +1,9 @@
+Date: 25/7/22
+GST: 29AIKPA4027F1Z
+Bill No: 17244
+Items:
+- Description: Hairpie, QTY: 1, Rate: 110
+- Description: Room Spray, QTY: 1, Rate: 169
+- Description: Hair pocket 1 box, QTY: 1, Rate: 460
+- Description: Tissue, QTY: 2, Rate: 70
+Total: 809

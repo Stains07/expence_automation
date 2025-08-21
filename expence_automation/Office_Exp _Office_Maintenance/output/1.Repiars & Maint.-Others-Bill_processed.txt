@@ -1,0 +1,8 @@
+Date: 1/8/2025
+GST: 19AAMFT9153H1ZK
+Bill No: 22/25-26
+Items:
+- Description: SENSOR- (SL.No G85212370601), QTY: 1, Rate: 2800
+- Description: FILTER, QTY: 1, Rate: 450
+- Description: Service Charge, QTY: 1, Rate: 800
+Total: 4779.00

@@ -1,0 +1,12 @@
+Date: 28/07/25
+GST: N/A
+Bill No: B-40
+Items:
+- Description: 1012, QTY: 1, Rate: 20
+- Description: Sta, QTY: 4, Rate: 40
+- Description: 20026, QTY: 2, Rate: 80
+- Description: 20 ch, QTY: 2, Rate: 25
+- Description: 230 Ltr, QTY: 2, Rate: 90
+- Description: (4) Ltro, QTY: 1, Rate: 40
+- Description: 9010, QTY: 1, Rate: 6
+Total: 600
