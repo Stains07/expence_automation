@@ -1,7 +1,18 @@
-Date: 18/06/29
-GST: 29JYWPS2974A1ZI
-Bill No: 293
-Items:
-- Description: Earthing kit, QTY: 1set, Rate: 432
-- Description: Wire 1.5 wire, QTY: 260, Rate: 500
-Total: 100
+{
+  "Date": "18/06/29",
+  "GST": "29JYWPS2974A1ZI",
+  "Bill No": "293",
+  "Items": [
+    {
+      "Description": "Earthling kit",
+      "QTY": "1set",
+      "Rate": "432"
+    },
+    {
+      "Description": "Wire 1.5 wire",
+      "QTY": "260",
+      "Rate": "500"
+    }
+  ],
+  "Total": "100"
+}

@@ -1,6 +1,13 @@
-Date: 30/7/2025
-GST: N/A
-Bill No: N/A
-Items:
-- Description: Tab Pouch, QTY: 1000, Rate: N/A
-Total: N/A
+{
+  "Date": "30/7/2025",
+  "GST": "N/A",
+  "Bill No": "N/A",
+  "Items": [
+    {
+      "Description": "Tab Pouch",
+      "QTY": "1000",
+      "Rate": "N/A"
+    }
+  ],
+  "Total": "N/A"
+}

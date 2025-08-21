@@ -1,0 +1,13 @@
+{
+  "Date": "18/06/2025",
+  "GST": "N/A",
+  "Bill No": "N/A",
+  "Items": [
+    {
+      "Description": "Electricion babu\u044f Exp",
+      "QTY": "1",
+      "Rate": "1000.00"
+    }
+  ],
+  "Total": "1000.00"
+}

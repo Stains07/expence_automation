@@ -1,0 +1,14 @@
+{
+  "Date of Invoice": "18/06/2025",
+  "GST Number": "N/A",
+  "Bill Number": "N/A",
+  "Items": [
+    {
+      "Description": "Electrician babu\nExp",
+      "QTY": "N/A",
+      "Rate per Item": "N/A"
+    }
+  ],
+  "Total Amount": "1000-0",
+  "Purchaser Name": "Muthoot name: yes"
+}

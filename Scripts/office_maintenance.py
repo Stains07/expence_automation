@@ -1,10 +1,13 @@
 import os
 import configparser
+import json
+import re
 from google.generativeai import configure, GenerativeModel
 from PIL import Image
 from pdf2image import convert_from_path
 import fitz  # PyMuPDF
 import io
+from datetime import datetime
 
 def read_config():
     """Read configuration from config.ini file"""
@@ -20,32 +23,68 @@ def ensure_folder_exists(folder_path):
 
 def extract_bill_data(model, img):
     """
-    Use Gemini to extract bill data from an image
+    Use Gemini to extract bill data from an image and return as JSON
     """
     prompt = """
-Extract the following information from this bill image in a structured format:
-- Date of invoice
-- GST number
-- Bill number
-- Items: list each with Description, QTY, Rate per item
-- Total amount
+You are an expert invoice data extraction specialist. Your task is to analyze invoice images and extract key information accurately.
 
-If a field is not present, use N/A.
+1. Identify and extract the following fields:
+    - Date of Invoice: Format as DD-MMM-YY or DD/MM/YYYY. If not found, use "N/A".
+    - GST Number: Extract the complete GST number. If not found, use "N/A".
+    - Bill Number: Extract the complete Bill number or Invoice Number. If not found, use "N/A".
+    - Description of Items Purchased: Provide a clear and readable list of items.
+    - QTY: Quantity of each item. If not found, use "N/A".
+    - Rate per Item: Price of each item. If not found, use "N/A".
+    - Total Amount: The final total amount due on the invoice. If not found, use "N/A".
+    - Purchaser Name: MFL, Muthoot, or any variation. If any of these names are present, return "Muthoot name: yes". If none are found, return "Muthoot name: no".
 
-Output exactly in the following format without additional text:
-Date: [date]
-GST: [gst]
-Bill No: [bill no]
-Items:
-- Description: [desc], QTY: [qty], Rate: [rate]
-- ...
-Total: [total]
+2. Output the extracted data in the JSON format below. Ensure it's valid JSON. Do not include any additional text or explanations. If the information is not present, respond with N/A.
+
+{
+    "Date of Invoice": "string or N/A",
+    "GST Number": "string or N/A",
+    "Bill Number": "string or N/A",
+    "Items": [
+        {
+            "Description": "string",
+            "QTY": "string or N/A",
+            "Rate per Item": "string or N/A"
+        }
+    ],
+    "Total Amount": "string or N/A",
+    "Purchaser Name": "Muthoot name: yes or Muthoot name: no"
+}
 """
     try:
         response = model.generate_content([prompt, img])
-        print("Gemini Response:")
+        print("Gemini Raw Response:")
         print(response.text)
-        return response.text
+        
+        # Strip any markdown wrappers like ```json ... ```
+        text = response.text.strip()
+        if text.startswith('```json'):
+            text = text[7:].strip()
+        if text.endswith('```'):
+            text = text[:-3].strip()
+        
+        # Parse the response as JSON
+        parsed_data = json.loads(text)
+        
+        # Print parsed JSON to console
+        print("Parsed JSON Response:")
+        print(json.dumps(parsed_data, indent=2))
+        
+        return json.dumps(parsed_data, indent=2)
+    except json.JSONDecodeError as e:
+        print(f"JSON Decode Error: {e}")
+        return json.dumps({
+            "Date of Invoice": "N/A",
+            "GST Number": "N/A",
+            "Bill Number": "N/A",
+            "Items": [],
+            "Total Amount": "N/A",
+            "Purchaser Name": "Muthoot name: no"
+        }, indent=2)
     except Exception as e:
         print(f"Error extracting data with Gemini: {e}")
         return None

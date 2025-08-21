@@ -1,0 +1,44 @@
+{
+  "Date of Invoice": "28/07/25",
+  "GST Number": "N/A",
+  "Bill Number": "B-40",
+  "Items": [
+    {
+      "Description": "10/2",
+      "QTY": "2",
+      "Rate per Item": "40"
+    },
+    {
+      "Description": "Sta",
+      "QTY": "4",
+      "Rate per Item": "40"
+    },
+    {
+      "Description": "20026",
+      "QTY": "4",
+      "Rate per Item": "160"
+    },
+    {
+      "Description": "90 ch",
+      "QTY": "2",
+      "Rate per Item": "50"
+    },
+    {
+      "Description": "250/5",
+      "QTY": "2",
+      "Rate per Item": "90"
+    },
+    {
+      "Description": "4470",
+      "QTY": "1",
+      "Rate per Item": "110"
+    },
+    {
+      "Description": "9B10",
+      "QTY": "1",
+      "Rate per Item": "96"
+    }
+  ],
+  "Total Amount": "600",
+  "Purchaser Name": "Muthoot name: yes"
+}

@@ -1,0 +1,29 @@
+{
+  "Date of Invoice": "25/7/25",
+  "GST Number": "29AIKPA4027F1ZJ",
+  "Bill Number": "17244",
+  "Items": [
+    {
+      "Description": "Hairpie",
+      "QTY": "N/A",
+      "Rate per Item": "110"
+    },
+    {
+      "Description": "Room Spray",
+      "QTY": "N/A",
+      "Rate per Item": "169"
+    },
+    {
+      "Description": "House pocket 1 box",
+      "QTY": "N/A",
+      "Rate per Item": "460"
+    },
+    {
+      "Description": "Tikku",
+      "QTY": "2",
+      "Rate per Item": "70"
+    }
+  ],
+  "Total Amount": "809",
+  "Purchaser Name": "Muthoot name: yes"
+}
